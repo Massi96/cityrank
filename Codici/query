@@ -1,0 +1,23 @@
+SELECT distinct ?Provincia ?Biblioteca ?URI ?Indirizzo ?CAP ?comune ?Latitudine ?Longitudine
+WHERE {
+      
+      ?URI a cis:Library;
+      cis:hasSite ?site.
+      ?site cis:siteAddress ?via.
+      ?via clvapit:hasProvince ?p.
+      ?p l0:name ?Provincia.
+      ?URI cis:institutionalCISName ?Biblioteca. 
+      ?via clvapit:fullAddress ?Indirizzo;
+      clvapit:postCode ?CAP.
+      ?via clvapit:hasCity ?c.
+      ?c l0:name ?comune.
+      ?site clvapit:hasGeometry ?geo.
+      ?geo clvapit:lat ?Latitudine;
+      clvapit:long ?Longitudine.
+      ?site cis:siteAddress ?adress.
+      ?adress clvapit:hasProvince ?provincia.
+      
+      FILTER(?provincia IN( <http://dati.beniculturali.it/iccu/anagrafe/resource/Province/201>, <http://dati.beniculturali.it/iccu/anagrafe/resource/Province/215>, 
+             <http://dati.beniculturali.it/iccu/anagrafe/resource/Province/258>, <http://dati.beniculturali.it/iccu/anagrafe/resource/Province/263>, 
+             <http://dati.beniculturali.it/iccu/anagrafe/resource/Province/282>))
+}

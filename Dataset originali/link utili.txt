@@ -1,0 +1,9 @@
+Siti arpa regionali---Dati inquinamento dell'aria
+https://www.inps.it/webidentity/banchedatistatistiche/menu/pensioni/pensioni.html pensioni
+lista ospedali salute.gov.it
+
+https://maps.agcom.it/    https://www.agcom.it/termini-e-condizioni penetrazione banda ultra larga/ link licenze
+http://dati.comune.milano.it/dataset/ds415-rilevazione-qualita-aria-2020 (Qualità aria Milano)
+https://www.arpa.piemonte.it/rischinaturali/tematismi/aria/osservazioni/PM10/Dati-giornalieri-PM10.html (Qualità aria Torino)
+https://www1.finanze.gov.it/finanze3/analisi_stat/index.php?search_class[0]=cCOMUNE&opendata=yes (Redditi per fasce per ogni comune)
+https://www.istat.it/it/dati-analisi-e-prodotti/open-data (Tutti dati istat)

@@ -1,0 +1,344 @@
+@prefix : <http://www.cityrank.org/ontology/ontologia.owl#> .
+@prefix cro: <http://www.cityrank.org/ontology/ontologia.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.cityrank.org/ontology/ontologia.owl#> .
+
+<http://www.cityrank.org/ontology/ontologia.owl#> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.cityrank.org/ontology/ontologia.owl#haIstituto
+cro:haIstituto rdf:type owl:ObjectProperty ;
+               rdfs:domain cro:Comune ;
+               rdfs:range cro:Biblioteche ,
+                          cro:Ospedali ,
+                          cro:Scuole ;
+               rdfs:comment "Proprietà usata per associare un comune a uno o più istituti" .
+
+
+###  http://www.cityrank.org/ontology/ontologia.owl#haProvincia
+cro:haProvincia rdf:type owl:ObjectProperty ;
+                rdfs:domain cro:Comune ;
+                rdfs:range cro:Provincia ;
+                rdfs:comment "Prorietà che indica la provinci alla quale appartiene il comune" .
+
+
+###  http://www.cityrank.org/ontology/ontologia.owl#intitolatoA
+cro:intitolatoA rdf:type owl:ObjectProperty ;
+                rdfs:domain cro:Ospedali ,
+                            cro:Scuole ;
+                rdfs:range owl:Thing ;
+                rdfs:comment "Proprietà per associare la risorsa con la persona a cui è intitolato su DBpedia" .
+
+
+###  http://www.w3.org/2002/07/owl#sameAs
+owl:sameAs rdf:type owl:ObjectProperty ;
+           rdfs:domain owl:Thing ;
+           rdfs:range owl:Thing ;
+           rdfs:comment "Proprietà che dice che due dati oggetti sono equivalenti" .
+
+
+###  https://schema.org/address
+<https://schema.org/address> rdf:type owl:ObjectProperty ;
+                             rdfs:domain <https://schema.org/GeoCoordinates> ;
+                             rdfs:range <https://schema.org/PostalAddress> ;
+                             rdfs:comment "Proprietà usata per associare un oggetto di tipo PostalAddress ad un oggetto di tipo GeoCoordinates" ;
+                             rdfs:label "address" .
+
+
+###  https://schema.org/geo
+<https://schema.org/geo> rdf:type owl:ObjectProperty ;
+                         rdfs:domain <https://schema.org/Place> ;
+                         rdfs:range <https://schema.org/GeoCoordinates> ;
+                         rdfs:comment "Proprietà usata per associare una risosra di tipo Place alla sua posizione geografica" ;
+                         rdfs:label "geo" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.cityrank.org/ontology/ontologia.owl#Nbiblioteche
+cro:Nbiblioteche rdf:type owl:DatatypeProperty ;
+                 rdfs:domain cro:Provincia ;
+                 rdfs:range xsd:int ;
+                 rdfs:comment "Numero biblioteche nella provincia" .
+
+
+###  http://www.cityrank.org/ontology/ontologia.owl#Nospedali
+cro:Nospedali rdf:type owl:DatatypeProperty ;
+              rdfs:domain cro:Provincia ;
+              rdfs:range xsd:int ;
+              rdfs:comment "Numero degli ospedali nella provincia" .
+
+
+###  http://www.cityrank.org/ontology/ontologia.owl#Nscuole
+cro:Nscuole rdf:type owl:DatatypeProperty ;
+            rdfs:domain cro:Provincia ;
+            rdfs:range xsd:int ;
+            rdfs:comment "Numero di scuole nella provincia" .
+
+
+###  http://www.cityrank.org/ontology/ontologia.owl#abitanti
+cro:abitanti rdf:type owl:DatatypeProperty ;
+             rdfs:domain cro:Comune ,
+                         cro:Provincia ;
+             rdfs:range xsd:int ;
+             rdfs:comment "Popolazione residente della provincia" .
+
+
+###  http://www.cityrank.org/ontology/ontologia.owl#area
+cro:area rdf:type owl:DatatypeProperty ;
+         rdfs:domain cro:Provincia ;
+         rdfs:range xsd:string ;
+         rdfs:comment "Superficie totale della provincia in km2" .
+
+
+###  http://www.cityrank.org/ontology/ontologia.owl#banda
+cro:banda rdf:type owl:DatatypeProperty ;
+          rdfs:domain cro:Provincia ;
+          rdfs:range xsd:string ;
+          rdfs:comment "Percentuale abonamenti banda larga su popolazione residente" .
+
+
+###  http://www.cityrank.org/ontology/ontologia.owl#descrizioneStruttura
+cro:descrizioneStruttura rdf:type owl:DatatypeProperty ;
+                         rdfs:domain cro:Ospedali ,
+                                     cro:Scuole ;
+                         rdfs:range xsd:string ;
+                         rdfs:comment "Indicia il tipo di struttura. Es Ospedale privato o pubblico o scuola primaria o di infanzia" .
+
+
+###  http://www.cityrank.org/ontology/ontologia.owl#differenziata
+cro:differenziata rdf:type owl:DatatypeProperty ;
+                  rdfs:domain cro:Provincia ;
+                  rdfs:range xsd:string ;
+                  rdfs:comment "Raccolta differenziata in percentuale" .
+
+
+###  http://www.cityrank.org/ontology/ontologia.owl#difftasso
+cro:difftasso rdf:type owl:DatatypeProperty ;
+              rdfs:domain cro:Provincia ;
+              rdfs:range xsd:string ;
+              rdfs:comment "Differenza assoluta fra tasso di occupazione maschile e tasso di occupazione femminile in età 15-64 anni" .
+
+
+###  http://www.cityrank.org/ontology/ontologia.owl#email
+cro:email rdf:type owl:DatatypeProperty ;
+          rdfs:domain cro:Biblioteche ,
+                      cro:Ospedali ,
+                      cro:Scuole ;
+          rdfs:range xsd:string ;
+          rdfs:comment "Indirizzo email istituto" .
+
+
+###  http://www.cityrank.org/ontology/ontologia.owl#furti
+cro:furti rdf:type owl:DatatypeProperty ;
+          rdfs:domain cro:Provincia ;
+          rdfs:range xsd:string ;
+          rdfs:comment "Numero dei furti di auto e in abitazioni ogni 100000 abitanti" .
+
+
+###  http://www.cityrank.org/ontology/ontologia.owl#furtiAuto
+cro:furtiAuto rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf cro:furti ;
+              rdfs:domain cro:Provincia ;
+              rdfs:range xsd:string ;
+              rdfs:comment "Furti di auto" .
+
+
+###  http://www.cityrank.org/ontology/ontologia.owl#furtiCase
+cro:furtiCase rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf cro:furti ;
+              rdfs:domain cro:Provincia ;
+              rdfs:range xsd:string ;
+              rdfs:comment "Furti abitazioni" .
+
+
+###  http://www.cityrank.org/ontology/ontologia.owl#incidenti
+cro:incidenti rdf:type owl:DatatypeProperty ;
+              rdfs:domain cro:Provincia ;
+              rdfs:range xsd:string ;
+              rdfs:comment "Totale morti e feriti in incidenti stradali ogni 100000 abitanti" .
+
+
+###  http://www.cityrank.org/ontology/ontologia.owl#indiceVecchiaia
+cro:indiceVecchiaia rdf:type owl:DatatypeProperty ;
+                    rdfs:domain cro:Provincia ;
+                    rdfs:range xsd:string ;
+                    rdfs:comment "Indice di vecchiaia" .
+
+
+###  http://www.cityrank.org/ontology/ontologia.owl#indiceVivibilita
+cro:indiceVivibilita rdf:type owl:DatatypeProperty ;
+                     rdfs:domain cro:Provincia ;
+                     rdfs:range xsd:string ;
+                     rdfs:comment "Indice finale, calcolato in base al punteggio di tutti gli altri indicatori" .
+
+
+###  http://www.cityrank.org/ontology/ontologia.owl#pensioni
+cro:pensioni rdf:type owl:DatatypeProperty ;
+             rdfs:domain cro:Provincia ;
+             rdfs:range xsd:string ;
+             rdfs:comment "Importo medio delle pensioni di vecchiaia" .
+
+
+###  http://www.cityrank.org/ontology/ontologia.owl#postiletto
+cro:postiletto rdf:type owl:DatatypeProperty ;
+               rdfs:domain cro:Provincia ;
+               rdfs:range xsd:int ;
+               rdfs:comment "Numero posti letto nelle strutture ricettive" .
+
+
+###  http://www.cityrank.org/ontology/ontologia.owl#rapportoBiblioteche
+cro:rapportoBiblioteche rdf:type owl:DatatypeProperty ;
+                        rdfs:domain cro:Provincia ;
+                        rdfs:range xsd:string ;
+                        rdfs:comment "Rapporto fra superficie della provincia e numero di biblioteche" .
+
+
+###  http://www.cityrank.org/ontology/ontologia.owl#rapportoOspedali
+cro:rapportoOspedali rdf:type owl:DatatypeProperty ;
+                     rdfs:domain cro:Provincia ;
+                     rdfs:range xsd:string ;
+                     rdfs:comment "Rapporto fra superficie della provincia e numero di ospedali" .
+
+
+###  http://www.cityrank.org/ontology/ontologia.owl#rapportoScuole
+cro:rapportoScuole rdf:type owl:DatatypeProperty ;
+                   rdfs:domain cro:Provincia ;
+                   rdfs:range xsd:string ;
+                   rdfs:comment "Rapporto fra superficie della provincia e numero di scuole" .
+
+
+###  http://www.cityrank.org/ontology/ontologia.owl#reddito
+cro:reddito rdf:type owl:DatatypeProperty ;
+            rdfs:domain cro:Provincia ;
+            rdfs:range xsd:string ;
+            rdfs:comment "Reddito medio complessivo per contribuente" .
+
+
+###  http://www.cityrank.org/ontology/ontologia.owl#retribuzione
+cro:retribuzione rdf:type owl:DatatypeProperty ;
+                 rdfs:domain cro:Provincia ;
+                 rdfs:range xsd:string ;
+                 rdfs:comment "Retribuzione Media" .
+
+
+###  http://www.cityrank.org/ontology/ontologia.owl#rifiuti
+cro:rifiuti rdf:type owl:DatatypeProperty ;
+            rdfs:domain cro:Provincia ;
+            rdfs:range xsd:string ;
+            rdfs:comment "Produzioni di rifiuti urbani pro capite" .
+
+
+###  http://www.cityrank.org/ontology/ontologia.owl#sitoWeb
+cro:sitoWeb rdf:type owl:DatatypeProperty ;
+            rdfs:domain cro:Biblioteche ,
+                        cro:Comune ,
+                        cro:Ospedali ,
+                        cro:Scuole ;
+            rdfs:range xsd:anyURI ;
+            rdfs:comment "Sito web istituto" .
+
+
+###  http://www.cityrank.org/ontology/ontologia.owl#tassodis
+cro:tassodis rdf:type owl:DatatypeProperty ;
+             rdfs:domain cro:Provincia ;
+             rdfs:range xsd:string ;
+             rdfs:comment "Tasso di disoccupazione in percentuale su popolazione 15-74 anni" .
+
+
+###  http://www.cityrank.org/ontology/ontologia.owl#tassodisg
+cro:tassodisg rdf:type owl:DatatypeProperty ;
+              rdfs:domain cro:Provincia ;
+              rdfs:range xsd:string ;
+              rdfs:comment "Tasso di disoccupazione giovanile in percentuale su popolazione 15-29 anni" .
+
+
+###  http://www.cityrank.org/ontology/ontologia.owl#tassomorte
+cro:tassomorte rdf:type owl:DatatypeProperty ;
+               rdfs:domain cro:Provincia ;
+               rdfs:range xsd:string ;
+               rdfs:comment "Tasso di mortalità" .
+
+
+###  http://www.cityrank.org/ontology/ontologia.owl#tassonata
+cro:tassonata rdf:type owl:DatatypeProperty ;
+              rdfs:domain cro:Provincia ;
+              rdfs:range xsd:string ;
+              rdfs:comment "Tasso di natalità" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.cityrank.org/ontology/ontologia.owl#Biblioteche
+cro:Biblioteche rdf:type owl:Class ;
+                rdfs:subClassOf <https://schema.org/Place> ;
+                rdfs:comment "Classe per identificare le biblioteche" .
+
+
+###  http://www.cityrank.org/ontology/ontologia.owl#Comune
+cro:Comune rdf:type owl:Class ;
+           rdfs:subClassOf <https://schema.org/Place> ;
+           rdfs:comment "Classe per identificare il Comune" .
+
+
+###  http://www.cityrank.org/ontology/ontologia.owl#Ospedali
+cro:Ospedali rdf:type owl:Class ;
+             rdfs:subClassOf <https://schema.org/Place> ;
+             rdfs:comment "Classe per identificare gli ospedali" .
+
+
+###  http://www.cityrank.org/ontology/ontologia.owl#Provincia
+cro:Provincia rdf:type owl:Class ;
+              rdfs:subClassOf <https://schema.org/Place> ;
+              rdfs:comment "Classe che identifica la Provincia" .
+
+
+###  http://www.cityrank.org/ontology/ontologia.owl#Scuole
+cro:Scuole rdf:type owl:Class ;
+           rdfs:subClassOf <https://schema.org/Place> ;
+           rdfs:comment "Classe per identificare le scuole" .
+
+
+###  https://schema.org/GeoCoordinates
+<https://schema.org/GeoCoordinates> rdf:type owl:Class ;
+                                    rdfs:comment "Classe per rappresentare le coordinate di un oggetto di un luogo" ;
+                                    rdfs:label "GeoCoordinates"@en .
+
+
+###  https://schema.org/Place
+<https://schema.org/Place> rdf:type owl:Class ;
+                           rdfs:isDefinedBy ""@en .
+
+
+###  https://schema.org/PostalAddress
+<https://schema.org/PostalAddress> rdf:type owl:Class ;
+                                   rdfs:comment "Classe che rappresenta un indirizzo postale" ;
+                                   rdfs:label "PostalAddress"@en .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( cro:Biblioteche
+                cro:Comune
+                cro:Ospedali
+                cro:Provincia
+                cro:Scuole
+              )
+] .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

@@ -1,0 +1,741 @@
+PROVINCIA,DENOMINAZIONE_COMUNE,CODICE_COMUNE
+TO,Agliè,A074
+TO,Airasca,A109
+TO,Ala di Stura,A117
+TO,Albiano d'Ivrea,A157
+TO,Almese,A218
+TO,Alpette,A221
+TO,Alpignano,A222
+TO,Andezeno,A275
+TO,Andrate,A282
+TO,Angrogna,A295
+TO,Arignano,A405
+TO,Avigliana,A518
+TO,Azeglio,A525
+TO,Bairo,A584
+TO,Balangero,A587
+TO,Baldissero Canavese,A590
+TO,Baldissero Torinese,A591
+TO,Balme,A599
+TO,Banchette,A607
+TO,Barbania,A625
+TO,Bardonecchia,A651
+TO,Barone Canavese,A673
+TO,Beinasco,A734
+TO,Bibiana,A853
+TO,Bobbio Pellice,A910
+TO,Bollengo,A941
+TO,Borgaro Torinese,A990
+TO,Borgiallo,B003
+TO,Borgofranco d'Ivrea,B015
+TO,Borgomasino,B021
+TO,Borgone Susa,B024
+TO,Bosconero,B075
+TO,Brandizzo,B121
+TO,Bricherasio,B171
+TO,Brosso,B205
+TO,Brozolo,B209
+TO,Bruino,B216
+TO,Brusasco,B225
+TO,Bruzolo,B232
+TO,Buriasco,B278
+TO,Burolo,B279
+TO,Busano,B284
+TO,Bussoleno,B297
+TO,Buttigliera Alta,B305
+TO,Cafasse,B350
+TO,Caluso,B435
+TO,Cambiano,B462
+TO,Campiglione Fenile,B512
+TO,Candia Canavese,B588
+TO,Candiolo,B592
+TO,Canischio,B605
+TO,Cantalupa,B628
+TO,Cantoira,B637
+TO,Caprie,B705
+TO,Caravino,B733
+TO,Carema,B762
+TO,Carignano,B777
+TO,Carmagnola,B791
+TO,Casalborgone,B867
+TO,Cascinette d'Ivrea,B953
+TO,Caselette,B955
+TO,Caselle Torinese,B960
+TO,Castagneto Po,C045
+TO,Castagnole Piemonte,C048
+TO,Castellamonte,C133
+TO,Castelnuovo Nigra,C241
+TO,Castiglione Torinese,C307
+TO,Cavagnolo,C369
+TO,Cavour,C404
+TO,Cercenasco,C487
+TO,Ceres,C497
+TO,Ceresole Reale,C505
+TO,Cesana Torinese,C564
+TO,Chialamberto,C604
+TO,Chianocco,C610
+TO,Chiaverano,C624
+TO,Chieri,C627
+TO,Chiesanuova,C629
+TO,Chiomonte,C639
+TO,Chiusa di San Michele,C655
+TO,Chivasso,C665
+TO,Ciconio,C679
+TO,Cintano,C711
+TO,Cinzano,C715
+TO,Ciriè,C722
+TO,Claviere,C793
+TO,Coassolo Torinese,C801
+TO,Coazze,C803
+TO,Collegno,C860
+TO,Colleretto Castelnuovo,C867
+TO,Colleretto Giacosa,C868
+TO,Condove,C955
+TO,Corio,D008
+TO,Cossano Canavese,D092
+TO,Cuceglio,D197
+TO,Cumiana,D202
+TO,Cuorgnè,D208
+TO,Druento,D373
+TO,Exilles,D433
+TO,Favria,D520
+TO,Feletto,D524
+TO,Fenestrelle,D532
+TO,Fiano,D562
+TO,Fiorano Canavese,D608
+TO,Foglizzo,D646
+TO,Forno Canavese,D725
+TO,Frassinetto,D781
+TO,Front,D805
+TO,Frossasco,D812
+TO,Garzigliana,D931
+TO,Gassino Torinese,D933
+TO,Germagnano,D983
+TO,Giaglione,E009
+TO,Giaveno,E020
+TO,Givoletto,E067
+TO,Gravere,E154
+TO,Groscavallo,E199
+TO,Grosso,E203
+TO,Grugliasco,E216
+TO,Ingria,E301
+TO,Inverso Pinasca,E311
+TO,Isolabella,E345
+TO,Issiglio,E368
+TO,Ivrea,E379
+TO,La Cassa,E394
+TO,La Loggia,E423
+TO,Lanzo Torinese,E445
+TO,Lauriano,E484
+TO,Leini,E518
+TO,Lemie,E520
+TO,Lessolo,E551
+TO,Levone,E566
+TO,Locana,E635
+TO,Lombardore,E660
+TO,Lombriasco,E661
+TO,Loranzè,E683
+TO,Luserna San Giovanni,E758
+TO,Lusernetta,E759
+TO,Lusigliè,E763
+TO,Macello,E782
+TO,Maglione,E817
+TO,Marentino,E941
+TO,Massello,F041
+TO,Mathi,F053
+TO,Mattie,F058
+TO,Mazzè,F067
+TO,Meana di Susa,F074
+TO,Mercenasco,F140
+TO,Mezzenile,F182
+TO,Mombello di Torino,F315
+TO,Mompantero,F318
+TO,Monastero di Lanzo,F327
+TO,Moncalieri,F335
+TO,Moncenisio,D553
+TO,Montaldo Torinese,F407
+TO,Montalenghe,F411
+TO,Montalto Dora,F420
+TO,Montanaro,F422
+TO,Monteu da Po,F651
+TO,Moriondo Torinese,F733
+TO,Nichelino,F889
+TO,Noasca,F906
+TO,Nole,F925
+TO,Nomaglio,F927
+TO,None,F931
+TO,Novalesa,F948
+TO,Oglianico,G010
+TO,Orbassano,G087
+TO,Orio Canavese,G109
+TO,Osasco,G151
+TO,Osasio,G152
+TO,Oulx,G196
+TO,Ozegna,G202
+TO,Palazzo Canavese,G262
+TO,Pancalieri,G303
+TO,Parella,G330
+TO,Pavarolo,G387
+TO,Pavone Canavese,G392
+TO,Pecetto Torinese,G398
+TO,Perosa Argentina,G463
+TO,Perosa Canavese,G462
+TO,Perrero,G465
+TO,Pertusio,G477
+TO,Pessinetto,G505
+TO,Pianezza,G559
+TO,Pinasca,G672
+TO,Pinerolo,G674
+TO,Pino Torinese,G678
+TO,Piobesi Torinese,G684
+TO,Piossasco,G691
+TO,Piscina,G705
+TO,Piverone,G719
+TO,Poirino,G777
+TO,Pomaretto,G805
+TO,Pont-Canavese,G826
+TO,Porte,G900
+TO,Pragelato,G973
+TO,Prali,G978
+TO,Pralormo,G979
+TO,Pramollo,G982
+TO,Prarostino,G986
+TO,Prascorsano,G988
+TO,Pratiglione,G997
+TO,Quagliuzzo,H100
+TO,Quassolo,H120
+TO,Quincinetto,H127
+TO,Reano,H207
+TO,Ribordone,H270
+TO,Rivalba,H333
+TO,Rivalta di Torino,H335
+TO,Riva presso Chieri,H337
+TO,Rivara,H338
+TO,Rivarolo Canavese,H340
+TO,Rivarossa,H344
+TO,Rivoli,H355
+TO,Robassomero,H367
+TO,Rocca Canavese,H386
+TO,Roletto,H498
+TO,Romano Canavese,H511
+TO,Ronco Canavese,H539
+TO,Rondissone,H547
+TO,Rorà,H554
+TO,Roure,H555
+TO,Rosta,H583
+TO,Rubiana,H627
+TO,Rueglio,H631
+TO,Salassa,H691
+TO,Salbertrand,H684
+TO,Salerano Canavese,H702
+TO,Salza di Pinerolo,H734
+TO,Samone,H753
+TO,San Benigno Canavese,H775
+TO,San Carlo Canavese,H789
+TO,San Colombano Belmonte,H804
+TO,San Didero,H820
+TO,San Francesco al Campo,H847
+TO,Sangano,H855
+TO,San Germano Chisone,H862
+TO,San Gillio,H873
+TO,San Giorgio Canavese,H890
+TO,San Giorio di Susa,H900
+TO,San Giusto Canavese,H936
+TO,San Martino Canavese,H997
+TO,San Maurizio Canavese,I024
+TO,San Mauro Torinese,I030
+TO,San Pietro Val Lemina,I090
+TO,San Ponso,I126
+TO,San Raffaele Cimena,I137
+TO,San Sebastiano da Po,I152
+TO,San Secondo di Pinerolo,I154
+TO,Sant'Ambrogio di Torino,I258
+TO,Sant'Antonino di Susa,I296
+TO,Santena,I327
+TO,Sauze di Cesana,I465
+TO,Sauze d'Oulx,I466
+TO,Scalenghe,I490
+TO,Scarmagno,I511
+TO,Sciolze,I539
+TO,Sestriere,I692
+TO,Settimo Rottaro,I701
+TO,Settimo Torinese,I703
+TO,Settimo Vittone,I702
+TO,Sparone,I886
+TO,Strambinello,I969
+TO,Strambino,I970
+TO,Susa,L013
+TO,Tavagnasco,L066
+TO,Torino,L219
+TO,Torrazza Piemonte,L238
+TO,Torre Canavese,L247
+TO,Torre Pellice,L277
+TO,Trana,L327
+TO,Traversella,L345
+TO,Traves,L340
+TO,Trofarello,L445
+TO,Usseaux,L515
+TO,Usseglio,L516
+TO,Vaie,L538
+TO,Val della Torre,L555
+TO,Valgioie,L578
+TO,Vallo Torinese,L629
+TO,Valperga,L644
+TO,Valprato Soana,B510
+TO,Varisella,L685
+TO,Vauda Canavese,L698
+TO,Venaus,L726
+TO,Venaria Reale,L727
+TO,Verolengo,L779
+TO,Verrua Savoia,L787
+TO,Vestignè,L811
+TO,Vialfrè,L830
+TO,Vidracco,L857
+TO,Vigone,L898
+TO,Villafranca Piemonte,L948
+TO,Villanova Canavese,L982
+TO,Villarbasse,M002
+TO,Villar Dora,L999
+TO,Villareggia,M004
+TO,Villar Focchiardo,M007
+TO,Villar Pellice,M013
+TO,Villar Perosa,M014
+TO,Villastellone,M027
+TO,Vinovo,M060
+TO,Virle Piemonte,M069
+TO,Vische,M071
+TO,Vistrorio,M080
+TO,Viù,M094
+TO,Volpiano,M122
+TO,Volvera,M133
+TO,Mappano,M316
+TO,Val di Chy,M405
+TO,Valchiusa,M415
+MI,Abbiategrasso,A010
+MI,Albairate,A127
+MI,Arconate,A375
+MI,Arese,A389
+MI,Arluno,A413
+MI,Assago,A473
+MI,Bareggio,A652
+MI,Basiano,A697
+MI,Basiglio,A699
+MI,Bellinzago Lombardo,A751
+MI,Bernate Ticino,A804
+MI,Besate,A820
+MI,Binasco,A872
+MI,Boffalora sopra Ticino,A920
+MI,Bollate,A940
+MI,Bresso,B162
+MI,Bubbiano,B235
+MI,Buccinasco,B240
+MI,Buscate,B286
+MI,Bussero,B292
+MI,Busto Garolfo,B301
+MI,Calvignasco,B448
+MI,Cambiago,B461
+MI,Canegrate,B593
+MI,Carpiano,B820
+MI,Carugate,B850
+MI,Casarile,B938
+MI,Casorezzo,B989
+MI,Cassano d'Adda,C003
+MI,Cassina de' Pecchi,C014
+MI,Cassinetta di Lugagnano,C033
+MI,Castano Primo,C052
+MI,Cernusco sul Naviglio,C523
+MI,Cerro al Lambro,C536
+MI,Cerro Maggiore,C537
+MI,Cesano Boscone,C565
+MI,Cesate,C569
+MI,Cinisello Balsamo,C707
+MI,Cisliano,C733
+MI,Cologno Monzese,C895
+MI,Colturano,C908
+MI,Corbetta,C986
+MI,Cormano,D013
+MI,Cornaredo,D018
+MI,Corsico,D045
+MI,Cuggiono,D198
+MI,Cusago,D229
+MI,Cusano Milanino,D231
+MI,Dairago,D244
+MI,Dresano,D367
+MI,Gaggiano,D845
+MI,Garbagnate Milanese,D912
+MI,Gessate,D995
+MI,Gorgonzola,E094
+MI,Grezzago,E170
+MI,Gudo Visconti,E258
+MI,Inveruno,E313
+MI,Inzago,E317
+MI,Lacchiarella,E395
+MI,Lainate,E415
+MI,Legnano,E514
+MI,Liscate,E610
+MI,Locate di Triulzi,E639
+MI,Magenta,E801
+MI,Magnago,E819
+MI,Marcallo con Casone,E921
+MI,Masate,F003
+MI,Mediglia,F084
+MI,Melegnano,F100
+MI,Melzo,F119
+MI,Mesero,F155
+MI,Milano,F205
+MI,Morimondo,D033
+MI,Motta Visconti,F783
+MI,Nerviano,F874
+MI,Nosate,F939
+MI,Novate Milanese,F955
+MI,Noviglio,F968
+MI,Opera,G078
+MI,Ossona,G181
+MI,Ozzero,G206
+MI,Paderno Dugnano,G220
+MI,Pantigliate,G316
+MI,Parabiago,G324
+MI,Paullo,G385
+MI,Pero,C013
+MI,Peschiera Borromeo,G488
+MI,Pessano con Bornago,G502
+MI,Pieve Emanuele,G634
+MI,Pioltello,G686
+MI,Pogliano Milanese,G772
+MI,Pozzo d'Adda,G955
+MI,Pozzuolo Martesana,G965
+MI,Pregnana Milanese,H026
+MI,Rescaldina,H240
+MI,Rho,H264
+MI,Robecchetto con Induno,H371
+MI,Robecco sul Naviglio,H373
+MI,Rodano,H470
+MI,Rosate,H560
+MI,Rozzano,H623
+MI,San Colombano al Lambro,H803
+MI,San Donato Milanese,H827
+MI,San Giorgio su Legnano,H884
+MI,San Giuliano Milanese,H930
+MI,Santo Stefano Ticino,I361
+MI,San Vittore Olona,I409
+MI,San Zenone al Lambro,I415
+MI,Sedriano,I566
+MI,Segrate,I577
+MI,Senago,I602
+MI,Sesto San Giovanni,I690
+MI,Settala,I696
+MI,Settimo Milanese,I700
+MI,Solaro,I786
+MI,Trezzano Rosa,L408
+MI,Trezzano sul Naviglio,L409
+MI,Trezzo sull'Adda,L411
+MI,Tribiano,L415
+MI,Truccazzano,L454
+MI,Turbigo,L471
+MI,Vanzago,L665
+MI,Vaprio d'Adda,L667
+MI,Vernate,L773
+MI,Vignate,L883
+MI,Vimodrone,M053
+MI,Vittuone,M091
+MI,Vizzolo Predabissi,M102
+MI,Zibido San Giacomo,M176
+MI,Villa Cortese,L928
+MI,Vanzaghello,L664
+MI,Baranzate,A618
+MI,Vermezzo con Zelo,M424
+RM,Affile,A062
+RM,Agosta,A084
+RM,Albano Laziale,A132
+RM,Allumiere,A210
+RM,Anguillara Sabazia,A297
+RM,Anticoli Corrado,A309
+RM,Anzio,A323
+RM,Arcinazzo Romano,A370
+RM,Ariccia,A401
+RM,Arsoli,A446
+RM,Artena,A449
+RM,Bellegra,A749
+RM,Bracciano,B114
+RM,Camerata Nuova,B472
+RM,Campagnano di Roma,B496
+RM,Canale Monterano,B576
+RM,Canterano,B635
+RM,Capena,B649
+RM,Capranica Prenestina,B687
+RM,Carpineto Romano,B828
+RM,Casape,B932
+RM,Castel Gandolfo,C116
+RM,Castel Madama,C203
+RM,Castelnuovo di Porto,C237
+RM,Castel San Pietro Romano,C266
+RM,Cave,C390
+RM,Cerreto Laziale,C518
+RM,Cervara di Roma,C543
+RM,Cerveteri,C552
+RM,Ciciliano,C677
+RM,Cineto Romano,C702
+RM,Civitavecchia,C773
+RM,Civitella San Paolo,C784
+RM,Colleferro,C858
+RM,Colonna,C900
+RM,Fiano Romano,D561
+RM,Filacciano,D586
+RM,Formello,D707
+RM,Frascati,D773
+RM,Gallicano nel Lazio,D875
+RM,Gavignano,D945
+RM,Genazzano,D964
+RM,Genzano di Roma,D972
+RM,Gerano,D978
+RM,Gorga,E091
+RM,Grottaferrata,E204
+RM,Guidonia Montecelio,E263
+RM,Jenne,E382
+RM,Labico,E392
+RM,Lanuvio,C767
+RM,Licenza,E576
+RM,Magliano Romano,E813
+RM,Mandela,B632
+RM,Manziana,E900
+RM,Marano Equo,E908
+RM,Marcellina,E924
+RM,Marino,E958
+RM,Mazzano Romano,F064
+RM,Mentana,F127
+RM,Monte Compatri,F477
+RM,Monteflavio,F504
+RM,Montelanico,F534
+RM,Montelibretti,F545
+RM,Monte Porzio Catone,F590
+RM,Monterotondo,F611
+RM,Montorio Romano,F692
+RM,Moricone,F730
+RM,Morlupo,F734
+RM,Nazzano,F857
+RM,Nemi,F865
+RM,Nerola,F871
+RM,Nettuno,F880
+RM,Olevano Romano,G022
+RM,Palestrina,G274
+RM,Palombara Sabina,G293
+RM,Percile,G444
+RM,Pisoniano,G704
+RM,Poli,G784
+RM,Pomezia,G811
+RM,Ponzano Romano,G874
+RM,Riano,H267
+RM,Rignano Flaminio,H288
+RM,Riofreddo,H300
+RM,Rocca Canterano,H387
+RM,Rocca di Cave,H401
+RM,Rocca di Papa,H404
+RM,Roccagiovine,H411
+RM,Rocca Priora,H432
+RM,Rocca Santo Stefano,H441
+RM,Roiate,H494
+RM,Roma,H501
+RM,Roviano,H618
+RM,Sacrofano,H658
+RM,Sambuci,H745
+RM,San Gregorio da Sassola,H942
+RM,San Polo dei Cavalieri,I125
+RM,Santa Marinella,I255
+RM,Sant'Angelo Romano,I284
+RM,Sant'Oreste,I352
+RM,San Vito Romano,I400
+RM,Saracinesco,I424
+RM,Segni,I573
+RM,Subiaco,I992
+RM,Tivoli,L182
+RM,Tolfa,L192
+RM,Torrita Tiberina,L302
+RM,Trevignano Romano,L401
+RM,Vallepietra,L611
+RM,Vallinfreda,L625
+RM,Valmontone,L639
+RM,Velletri,L719
+RM,Vicovaro,L851
+RM,Vivaro Romano,M095
+RM,Zagarolo,M141
+RM,Lariano,M207
+RM,Ladispoli,M212
+RM,Ardea,M213
+RM,Ciampino,M272
+RM,San Cesareo,M295
+RM,Fiumicino,M297
+RM,Fonte Nuova,M309
+NA,Acerra,A024
+NA,Afragola,A064
+NA,Agerola,A068
+NA,Anacapri,A268
+NA,Arzano,A455
+NA,Bacoli,A535
+NA,Barano d'Ischia,A617
+NA,Boscoreale,B076
+NA,Boscotrecase,B077
+NA,Brusciano,B227
+NA,Caivano,B371
+NA,Calvizzano,B452
+NA,Camposano,B565
+NA,Capri,B696
+NA,Carbonara di Nola,B740
+NA,Cardito,B759
+NA,Casalnuovo di Napoli,B905
+NA,Casamarciano,B922
+NA,Casamicciola Terme,B924
+NA,Casandrino,B925
+NA,Casavatore,B946
+NA,Casola di Napoli,B980
+NA,Casoria,B990
+NA,Castellammare di Stabia,C129
+NA,Castello di Cisterna,C188
+NA,Cercola,C495
+NA,Cicciano,C675
+NA,Cimitile,C697
+NA,Comiziano,C929
+NA,Crispano,D170
+NA,Forio,D702
+NA,Frattamaggiore,D789
+NA,Frattaminore,D790
+NA,Giugliano in Campania,E054
+NA,Gragnano,E131
+NA,Grumo Nevano,E224
+NA,Ischia,E329
+NA,Lacco Ameno,E396
+NA,Lettere,E557
+NA,Liveri,E620
+NA,Marano di Napoli,E906
+NA,Mariglianella,E954
+NA,Marigliano,E955
+NA,Massa Lubrense,F030
+NA,Melito di Napoli,F111
+NA,Meta,F162
+NA,Monte di Procida,F488
+NA,Mugnano di Napoli,F799
+NA,Napoli,F839
+NA,Nola,F924
+NA,Ottaviano,G190
+NA,Palma Campania,G283
+NA,Piano di Sorrento,G568
+NA,Pimonte,G670
+NA,Poggiomarino,G762
+NA,Pollena Trocchia,G795
+NA,Pomigliano d'Arco,G812
+NA,Pompei,G813
+NA,Portici,G902
+NA,Pozzuoli,G964
+NA,Procida,H072
+NA,Qualiano,H101
+NA,Quarto,H114
+NA,Ercolano,H243
+NA,Roccarainola,H433
+NA,San Gennaro Vesuviano,H860
+NA,San Giorgio a Cremano,H892
+NA,San Giuseppe Vesuviano,H931
+NA,San Paolo Bel Sito,I073
+NA,San Sebastiano al Vesuvio,I151
+NA,Sant'Agnello,I208
+NA,Sant'Anastasia,I262
+NA,Sant'Antimo,I293
+NA,Sant'Antonio Abate,I300
+NA,San Vitaliano,I391
+NA,Saviano,I469
+NA,Scisciano,I540
+NA,Serrara Fontana,I652
+NA,Somma Vesuviana,I820
+NA,Sorrento,I862
+NA,Striano,I978
+NA,Terzigno,L142
+NA,Torre Annunziata,L245
+NA,Torre del Greco,L259
+NA,Tufino,L460
+NA,Vico Equense,L845
+NA,Villaricca,G309
+NA,Visciano,M072
+NA,Volla,M115
+NA,Santa Maria la Carità,M273
+NA,Trecase,M280
+NA,Massa di Somma,M289
+PA,Alia,A195
+PA,Alimena,A202
+PA,Aliminusa,A203
+PA,Altavilla Milicia,A229
+PA,Altofonte,A239
+PA,Bagheria,A546
+PA,Balestrate,A592
+PA,Baucina,A719
+PA,Belmonte Mezzagno,A764
+PA,Bisacquino,A882
+PA,Bolognetta,A946
+PA,Bompietro,A958
+PA,Borgetto,A991
+PA,Caccamo,B315
+PA,Caltavuturo,B430
+PA,Campofelice di Fitalia,B533
+PA,Campofelice di Roccella,B532
+PA,Campofiorito,B535
+PA,Camporeale,B556
+PA,Capaci,B645
+PA,Carini,B780
+PA,Castelbuono,C067
+PA,Casteldaccia,C074
+PA,Castellana Sicula,C135
+PA,Castronovo di Sicilia,C344
+PA,Cefalà Diana,C420
+PA,Cefalù,C421
+PA,Cerda,C496
+PA,Chiusa Sclafani,C654
+PA,Ciminna,C696
+PA,Cinisi,C708
+PA,Collesano,C871
+PA,Contessa Entellina,C968
+PA,Corleone,D009
+PA,Ficarazzi,D567
+PA,Gangi,D907
+PA,Geraci Siculo,D977
+PA,Giardinello,E013
+PA,Giuliana,E055
+PA,Godrano,E074
+PA,Gratteri,E149
+PA,Isnello,E337
+PA,Isola delle Femmine,E350
+PA,Lascari,E459
+PA,Lercara Friddi,E541
+PA,Marineo,E957
+PA,Mezzojuso,F184
+PA,Misilmeri,F246
+PA,Monreale,F377
+PA,Montelepre,F544
+PA,Montemaggiore Belsito,F553
+PA,Palazzo Adriano,G263
+PA,Palermo,G273
+PA,Partinico,G348
+PA,Petralia Soprana,G510
+PA,Petralia Sottana,G511
+PA,Piana degli Albanesi,G543
+PA,Polizzi Generosa,G792
+PA,Pollina,G797
+PA,Prizzi,H070
+PA,Roccamena,H422
+PA,Roccapalumba,H428
+PA,San Cipirello,H797
+PA,San Giuseppe Jato,H933
+PA,San Mauro Castelverde,I028
+PA,Santa Cristina Gela,I174
+PA,Santa Flavia,I188
+PA,Sciara,I534
+PA,Sclafani Bagni,I541
+PA,Termini Imerese,L112
+PA,Terrasini,L131
+PA,Torretta,L282
+PA,Trabia,L317
+PA,Trappeto,L332
+PA,Ustica,L519
+PA,Valledolmo,L603
+PA,Ventimiglia di Sicilia,L740
+PA,Vicari,L837
+PA,Villabate,L916
+PA,Villafrati,L951
+PA,Scillato,I538
+PA,Blufi,M268
